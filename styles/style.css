@@ -5,11 +5,14 @@
     margin: 0px;
     padding: 0px;
 }
-.body{
-    height: 100vh;
-    font-size: 15px;
-    
+body{
+    min-height: 100vh;
+    font-size: 0.938rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 
 .cards{
     display: flex;
@@ -17,6 +20,7 @@
     align-items: center;
     justify-content: center;
 }
+
 .cards img{
     margin: 40px;
 }
@@ -41,7 +45,7 @@
     font-family: "Big Shoulders Display", serif;
     font-weight: 700px;
     text-transform: uppercase;
-    color: white;
+    color: hsl(0, 0%, 95%);
     margin: 40px
 }
 
@@ -55,7 +59,8 @@
 .learn{
     text-decoration: none;
     text-align: center;
-    border: 2px solid white;
+    border: 2px solid hsl(0, 0%, 95%);
+    cursor: pointer;
     margin: 40px;
     margin-top: 15px;
     font-family: "Lexend Deca", sans-serif;
@@ -78,7 +83,7 @@
 }
 
 .learn:hover{
-    color:white;
+    color:hsl(0, 0%, 95%);
     
 }
 .learn.Luxury{
@@ -86,7 +91,7 @@
 }
 
 .learn:hover{
-    color:white;
+    color:hsl(0, 0%, 95%);
     
 }
 .learn.sedan:hover{
