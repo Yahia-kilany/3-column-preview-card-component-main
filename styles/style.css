@@ -21,15 +21,24 @@ body{
     justify-content: center;
 }
 
+@media (max-width:940px){
+
+    .cards{
+        flex-direction:column;
+    }
+    
+}
 .cards img{
     margin: 40px;
 }
+
 .card{
     width: 8.1cm;
     height: 13.2cm;
 }
 
 .sedan{
+    border-radius: 8px 0px 0px 8px;
     background-color: hsl(31, 77%, 52%);
 }
 
@@ -38,6 +47,7 @@ body{
 }
 
 .Luxury{
+    border-radius: 0px 8px 8px 0px;
     background-color: hsl(179, 100%, 13%);
 }
 
